@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/",
+      "destination": "https://sharefable.us.auth0.com/u/login?state=hKFo2SBfbmk0QnNKZm9NYW1na0xWWHFtNEQ4WjdyWFJSZEhhT6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIC1sY24ySy1obzhKZ011czFDdG13U09uS19pV1dLVmdYo2NpZNkgTU5kbVJzWjFiVjE5UWFLRU1ya3pGU0lQc2dXWnZQNEs"
+ },
+     {
       "source": "/(.*)",
       "destination": "https://app.sharefable.com/$1"
  }
